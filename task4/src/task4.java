@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите дату в формате 'дд.мм.гггг'");
         String inputDate = scanner.nextLine();
         SimpleDateFormat inputFormat = new SimpleDateFormat("dd.MM.yyyy");
         SimpleDateFormat outputFormat = new SimpleDateFormat("yyyy-MM-dd");

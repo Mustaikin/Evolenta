@@ -4,10 +4,10 @@ public class task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите основную строку: ");
+        System.out.print("Введите строку");
         String mainString = scanner.nextLine();
 
-        System.out.print("Введите подстроку для поиска: ");
+        System.out.print("Введите подстроку");
         String substring = scanner.nextLine();
 
         int countOccurrences = 0;
