@@ -5,7 +5,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         List<User> users = new ArrayList<>();
 
-        // Циклический ввод данных 5 пользователей
         for (int i = 1; i <= 5; i++) {
             System.out.print("Введите имя пользователя " + i + ": ");
             String name = scanner.nextLine();
