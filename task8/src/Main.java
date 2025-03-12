@@ -11,7 +11,7 @@ public class Main {
             String name = scanner.nextLine();
             System.out.print("Введите возраст пользователя " + i + ": ");
             int age = scanner.nextInt();
-            scanner.nextLine(); // Очистка буфера
+            scanner.nextLine(); 
 
             User user = new User(name, age);
 
